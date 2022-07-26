@@ -7,12 +7,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:image_picker/image_picker.dart';
 
-class PersonalInformation extends StatefulWidget {
+class ShortFormScreen extends StatefulWidget {
   @override
   _ProfessionState createState() => _ProfessionState();
 }
 
-class _ProfessionState extends State<PersonalInformation> {
+class _ProfessionState extends State<ShortFormScreen> {
   Item selectedUser;
   List<Item> users = <Item>[
     const Item(
